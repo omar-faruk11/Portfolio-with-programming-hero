@@ -7,7 +7,7 @@ body{
     
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-     margin-bottom: 10%;
+    margin-bottom: 10%;
 }
 .half-with{
     margin-left:5%;
@@ -37,4 +37,35 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+h2{
+    font-size: 40px;
+}
+.flexible-container{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.exprtirnvr-item{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px;
+    margin-bottom: 10%;
+    border-radius: 10px;
+
+}
+
+#web-dev-ex{
+    border-left: 7px solid;
+   border-image: linear-gradient(tomato,salmon);
+   border-image-slice: 1;
+}
+#Full-Stack-Web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
