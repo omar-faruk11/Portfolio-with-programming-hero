@@ -4,17 +4,16 @@ body{
     margin: 0;
 }
 .welcome-section{
-    display: flex;
+    
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    
-   
+     margin-bottom: 10%;
 }
 .half-with{
     margin-left:5%;
+    margin-right: 10px;
     width: 50%;
     text-align: justify;
-    
 }
 h1{
     font-size: 50px;
@@ -31,21 +30,11 @@ h1{
     padding: 7px 30px;
     color: white;
 }
-
-
-/*.welcome-div{
-    margin-left: 50px;
-    margin-top: 40px;
+.dream{
+    display: flex;
 }
-h1{
-    font-size: 60px;
+#style{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
-.orange-color{
-    color: orange;
-}
-.botton-icon{
-    background-image: inherit;
-}
-.pic{
-    width: 400px;
-}*/
