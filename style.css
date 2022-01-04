@@ -1,0 +1,51 @@
+
+body{
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+}
+.welcome-section{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+   
+}
+.half-with{
+    margin-left:5%;
+    width: 50%;
+    text-align: justify;
+    
+}
+h1{
+    font-size: 50px;
+}
+.orange-color{
+    color: orange;
+}
+.half-with img{
+    width: 80%;
+}
+.botton-icon{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 7px 30px;
+    color: white;
+}
+
+
+/*.welcome-div{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+h1{
+    font-size: 60px;
+}
+.orange-color{
+    color: orange;
+}
+.botton-icon{
+    background-image: inherit;
+}
+.pic{
+    width: 400px;
+}*/
